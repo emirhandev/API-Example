@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Api Example</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="apiExampleHeading">Api Example</h1>
+
+        <div id="languageSelector">
+            <div class="select-wrapper">
+                <select id="languageSelect">
+                    <option value="en">English</option>
+                    <option value="tr">Türkçe</option>
+                    <option value="es">Español</option>
+                    <option value="fr">Français</option>
+                    <option value="ch">中文</option>
+                </select>
+            </div>
+        </div>
+        <div class="button-wrapper">
+            <button id="userDataButton" data-parameters="id,name,email,password,role,avatar,creationAt,updatedAt">Get User Data</button>
+            <button id="productDataButton" data-parameters="id,title,description,price,creationAt,updatedAt">Get Product Data</button>
+            <button id="sortByNameButton">Sort by Name</button>
+        </div>
+        <table id="dataGrid">
+            <thead>
+                <tr id="parametersRow"></tr>
+                <tr id="filtersRow"></tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+    <script src="translations.js"></script>
+</body>
+</html>
