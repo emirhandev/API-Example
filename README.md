@@ -10,7 +10,7 @@ Additionally, it now includes a filter feature to search and filter the data in 
 - - Sort by Name: Sorts the table rows alphabetically by the user's name.
 - - Filter Data: Users can filter the table data by entering search terms in the respective columns.
    
- # Technologies Used
+ # Programming Languages Used
 - HTML
 - CSS
 - JavaScript
