@@ -1,4 +1,4 @@
-# *School Management System*
+# *API EXAMPLE*
 This project demonstrates a simple web application that fetches data from an API and displays it in a table. 
 The application allows users to select their preferred language, and the content will be dynamically translated accordingly. 
 Additionally, it now includes a filter feature to search and filter the data in the table.
